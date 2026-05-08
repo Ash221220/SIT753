@@ -19,7 +19,7 @@ pipeline {
         stage('Unit and Integration Tests') {
             steps {
                 echo "Testing Tools: JUnit and Selenium"
-                echo "Run unit tests to check individual functions"
+                echo "Run unit tests to check individual function"
                 echo "Run integration tests to check connected components"
             }
         }
